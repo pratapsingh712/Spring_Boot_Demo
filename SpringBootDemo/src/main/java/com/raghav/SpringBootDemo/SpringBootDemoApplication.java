@@ -14,6 +14,11 @@ public class SpringBootDemoApplication {
 		Alien obj = context.getBean(Alien.class);
 		obj.code();
 
+//		Alien obj1 = context.getBean(Alien.class);
+//		obj1.code();
+//
+//		System.out.println(obj1.hashCode()==obj.hashCode()); --> returns true as both the objects are same created by the IOC
+
 //		System.out.println("Hello World!");
 	}
 
