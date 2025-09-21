@@ -1,4 +1,4 @@
-package com.raghav.SpringBootDemo;
+package com.raghav.SpringBootDemo.model;
 
 public interface Computer {
 
